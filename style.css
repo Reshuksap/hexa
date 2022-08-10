@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@500&family=Poppins:wght@300;600&family=Roboto&display=swap');
+*{
+    margin: 0;
+    font-family: 'Robot','Open Sans';
+    padding: 0;
+}
+header{
+    display: flex;
+    background: blueviolet;
+    height: 24vh;
+  
+}
+.logo-search-bar-cart{
+   display: flex;
+   margin: 30px;
+overflow: hidden;
+}
+.search-box{
+    display: flex;
+    margin: 40px;
+}
+.search-bar{
+    margin-left: 110px;
+}
+input{
+  width: 200%;
+outline: none;
+padding-left: 14px;
+padding-right: 14px;
+padding-top: 20px;
+padding-bottom: 20px;
+border: none;
+font-size: 18px;
+}
+.search-btn{
+    background: red;
+    height: 5vh;
+}
+.search-btn a{
+    margin-left: 40px;
+}
